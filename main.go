@@ -13,6 +13,6 @@ func main() {
 	a1.ListBlocks(chainHead)
 	a1.ChangeBlock("AliceToBob", "AliceToTrudy", chainHead)
 	a1.ListBlocks(chainHead)
-	a1.VerifyChain(chainHead)
+	//a1.VerifyChain(chainHead)
 
 }
